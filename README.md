@@ -36,13 +36,19 @@
  - Tailwind
 
 ## Screenshots
-
+- Main page
 ![](./cod/../doc/homepage.jpg)
 
+- Listed NFTs
 ![](./cod/../doc/list_nft.jpg)
 
+- NFT detail
 ![](./cod/../doc/nft.png)
 
+- Create NFT collection
+![](./cod/../doc/create_collection.jpg)
+
+- Collection NFTs
 ![](./cod/../doc/collection.jpg)
 
 
