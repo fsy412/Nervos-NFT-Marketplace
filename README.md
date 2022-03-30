@@ -39,4 +39,16 @@
 
 ![](./cod/../doc/homepage.jpg)
 
+![](./cod/../doc/list_nft.jpg)
+
+![](./cod/../doc/nft.png)
+
+![](./cod/../doc/collection.jpg)
+
+
+## [Demo Site](http://47.240.61.73/)
+
+
 ## YouTube Demo
+
+https://youtu.be/pypjbgEDS88
