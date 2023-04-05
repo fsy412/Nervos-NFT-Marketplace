@@ -1,8 +1,8 @@
 
 const networks = {
     godwoken: {
-        CollectionFactory: "0x728CD32C6bFf8A8c014666E41177089B0307b221",
-        MarketPlace: "0xd07654BDfDB4CE56585A4EcF2Fb1C2c07Dd53C91",
+        CollectionFactory: "0xb0aa01E803A739768eD7d335E3AB88318a0a75aB",
+        MarketPlace: "0xa1AF951dBb9ec2aaB03b3bd8d11658c0DFa0f66B",
     },
 }
 

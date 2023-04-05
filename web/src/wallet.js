@@ -8,14 +8,14 @@ let walletGlobal = {
 
 const networks = {
     GodwokenTest: {
-        chainId: `0x${Number(868455272153094).toString(16)}`,
+        chainId: `0x${Number(71401).toString(16)}`,
         chainName: "Godwoken Testnet",
         nativeCurrency: {
-            name: "ckETH",
-            symbol: "ckETH",
+            name: "pCKB",
+            symbol: "pCKB",
             decimals: 18
         },
-        rpcUrls: ["https://godwoken-testnet-web3-v1-rpc.ckbapp.dev/"],
+        rpcUrls: ["https://v1.testnet.godwoken.io/rpc"],
         blockExplorerUrls: ["https://v1.aggron.gwscan.com/"]
     },
 }

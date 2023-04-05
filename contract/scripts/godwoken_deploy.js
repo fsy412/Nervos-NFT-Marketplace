@@ -1,5 +1,5 @@
 const Web3 = require('web3');
-const web3 = new Web3('https://godwoken-testnet-web3-v1-rpc.ckbapp.dev');
+const web3 = new Web3('https://godwoken-testnet-v1.ckbapp.dev');
 const DEPLOYER_PRIVATE_KEY = '43cde662689acde2dfb0519fdbe3892168b58e0a273176b0e5483d994c16bcff'; // Replace this with your Ethereum private key with funds on Layer 2.
 const deployerAccount = web3.eth.accounts.wallet.add(DEPLOYER_PRIVATE_KEY);
 var MarketPlace = require('../artifacts/contracts/MarketPlace.sol/MarketPlace.json')
@@ -34,6 +34,7 @@ async function deployCollectionFactory(){
 }
 
 (async () => {
+    console.log('1111')
     const balance = BigInt(await web3.eth.getBalance(deployerAccount.address));
 
     if (balance === 0n) {
@@ -43,5 +44,7 @@ async function deployCollectionFactory(){
 
     console.log(`Deploying contract...`);
     await deployMarket();
+
+
     await deployCollectionFactory();
 })();
