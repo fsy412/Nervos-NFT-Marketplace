@@ -29,11 +29,12 @@ export default {
   },
   async mounted() {
     let metaData = (await getJSONfromHash(this.metaDataHash)).data
+    console.log('getJSONfromHash' ,metaData)
     this.metaData = metaData
     const img = this.$refs.img
     let newImg = new Image()
     newImg.className = 'rounded-t-lg object-cover h-60 w-full hover:opacity-75'
-    newImg.src = `https://ipfs.infura.io/ipfs/${metaData.image}`
+    newImg.src = `https://cloudflare-ipfs.com/ipfs/${metaData.image}`
     newImg.onload = () => {
       img.append(newImg)
       this.loaded = true

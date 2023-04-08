@@ -2,7 +2,7 @@
   <div class="container flex flex-row mt-10 pb-20">
     <div style="width: 60%">
       <div>
-        <img :src="`https://ipfs.infura.io/ipfs/${image}`" class="rounded object-scale m-auto" />
+        <img :src="`https://cloudflare-ipfs.com/ipfs/${image}`" class="rounded object-scale m-auto" />
       </div>
     </div>
     <div style="width: 40%">

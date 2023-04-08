@@ -38,7 +38,8 @@ export default {
   async mounted() {
     let list = await getUserCollections(walletGlobal.account)
     this.collections = list.filter((item) => item.metaDataHash != '')
-    console.log('Create.vue', this.collections)
+    console.log(Object.entries(list));  
+    // console.log('Create.vue', this.collections)
   },
   methods: {},
 }

@@ -24,7 +24,7 @@ export default {
     const img = this.$refs.img
     this.loaded = false
     let newImg = new Image()
-    newImg.src = `https://ipfs.infura.io/ipfs/${this.item.image}`
+    newImg.src = `https://cloudflare-ipfs.com/ipfs/${this.item.image}`
     newImg.className = 'w-full h-full object-cover'
     newImg.onload = () => {
       console.log('done')

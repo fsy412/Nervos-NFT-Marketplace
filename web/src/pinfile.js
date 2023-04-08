@@ -60,5 +60,5 @@ export const unPin = (hash) => {
 }
 
 export const getJSONfromHash = (hash) => {
-    return axios.get(`https://ipfs.infura.io/ipfs/${hash}`);
+    return axios.get(`https://cloudflare-ipfs.com/ipfs/${hash}`);
 }

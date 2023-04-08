@@ -6,7 +6,7 @@
           <span class="text-4xl font-bold 5">{{ title }}</span>
           <p class="mt-1 text-sm text-gray-600">{{ description }}</p>
           <div class="flex justify-center">
-            <img class="rounded object-cover" style="height: 24rem" :src="`https://ipfs.infura.io/ipfs/${image}`" />
+            <img class="rounded object-cover" style="height: 24rem" :src="`https://cloudflare-ipfs.com/ipfs/${image}`" />
           </div>
         </div>
       </div>

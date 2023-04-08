@@ -75,8 +75,8 @@ export default {
     console.log('metaData', metaData)
     this.title = metaData.title
     this.description = metaData.description
-    this.bannerImg = `https://ipfs.infura.io/ipfs/${metaData.banner}`
-    this.coverImg = `https://ipfs.infura.io/ipfs/${metaData.image}`
+    this.bannerImg = `https://cloudflare-ipfs.com/ipfs/${metaData.banner}`
+    this.coverImg = `https://cloudflare-ipfs.com/ipfs/${metaData.image}`
     this.showCreate = this.creator == walletGlobal.account
     const totalNFTs = parseInt((await totalSupply(this.contractAddress)).toString())
 
